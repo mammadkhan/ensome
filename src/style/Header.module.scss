@@ -1,0 +1,11 @@
+.header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .burger{
+        border:none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+}

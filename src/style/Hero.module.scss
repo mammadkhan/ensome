@@ -1,0 +1,49 @@
+.hero{
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1.5rem;
+    .graphic{
+        width: 100%;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    p{
+        line-height: 2rem;
+        color:rgb(180, 180, 180);
+    }
+    .learn{
+        font-size: 1rem;
+        font-weight: 600;
+        border: none;
+        width: 100%;
+        height: 60px;
+        border-radius: 10px;
+        color:white;
+        background-color: rgb(24, 95, 225);
+        cursor: pointer;
+    }
+    .watch{
+        font-size: 1rem;
+        font-weight: 600;
+        border: 1px solid rgb(24, 95, 225);
+        width: 100%;
+        height: 60px;
+        border-radius: 10px;
+        color:rgb(24, 95, 225);
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        cursor: pointer;
+        svg path{
+            fill:rgb(24, 95, 225);
+        }
+    }
+    .logos{
+        width: 100%;
+    }
+}
