@@ -1,0 +1,37 @@
+.reviewCard{
+    min-width: 100%;
+    text-align: initial;
+    padding:30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 20px 17px rgba(24, 92, 255, 0.04);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:1.5rem;
+    .date{
+        line-height: 2rem;
+        color:rgb(180, 180, 180);
+    }
+    .heading{
+        font-size:1.2rem;
+        font-weight: 600;
+    }
+    .text{
+        color:rgb(180, 180, 180);
+        font-size: 0.9rem;
+        line-height: 1.8rem;
+    }
+    .tagsContainer{
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        .tag{
+            border: 1px solid rgba(180, 180, 180,0.2);
+            border-radius: 10px;
+            padding:8px 10px;
+            color: rgb(24, 95, 225);
+            font-weight: 700;
+        }
+    }
+}
