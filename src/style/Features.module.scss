@@ -15,10 +15,15 @@
         padding:20px;
     }
     .cardSlide{
-        padding: 30px;
+        scrollbar-width: none;
+        padding:0px 40px 40px 40px;
         width: 100%;
-        gap:1rem;
+        gap:1.8rem;
         display: flex;
+        overflow-x: scroll;
         cursor: grab;
+    }
+    .cardSlide::-webkit-scrollbar { 
+        display: none;
     }
 }

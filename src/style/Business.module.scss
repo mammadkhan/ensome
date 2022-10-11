@@ -1,0 +1,38 @@
+.business{
+    h2{
+        padding:40px;
+        font-size:2rem;
+        text-align: center;
+    }
+    .controls{
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 10px;
+        gap:10px;
+        button{
+            border:none;
+            cursor: pointer;
+            color: #F0F9FF;
+            padding:0.8rem 1rem;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .left{
+        transform: rotate(180deg);
+    }
+    .businessSlide{
+        scrollbar-width: none;
+        padding:0px 40px 40px 40px;
+        width: 100%;
+        gap:1.8rem;
+        display: flex;
+        overflow-x: scroll;
+        cursor: grab;
+    }
+    .businessSlide::-webkit-scrollbar{
+        display: none;
+    }
+}
