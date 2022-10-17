@@ -16,11 +16,10 @@
         width: 100%;
         gap:1.8rem;
         display: flex;
-        cursor: grab;
         overflow-x: scroll;
-    }
-    .reviewSlide::-webkit-scrollbar { 
-        display: none;
+        &::-webkit-scrollbar { 
+            display: none;
+        }
     }
     button{
         margin: 0px 40px;

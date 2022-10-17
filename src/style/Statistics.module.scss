@@ -1,0 +1,22 @@
+.statistics{
+    background-color: rgb(24, 95, 225);
+    color:white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding:20px 40px;
+    .measure{
+        border-bottom: 2px solid rgba(241, 246, 250,0.2);
+        padding:20px 0px;
+        &:last-child{
+            border: none;
+        }
+        b{
+            font-size: 3.5rem;
+            font-weight: 800;
+        }
+        p{
+            font-size: 1.2rem;
+        }
+    }
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import { v4 as uuidv4 } from 'uuid';
 import style from '../../style/subcom style/ReviewCard.module.scss'
 
 interface Props{
@@ -17,7 +18,7 @@ const ReviewCard: React.FC<Props> = (props) => {
       <div className={style.tagsContainer}>
         {props.tags.map((tag:string)=>{
           return(
-            <p className={style.tag}>{tag}</p>
+            <p key={uuidv4()} className={style.tag}>{tag}</p>
           )
         })}
       </div>

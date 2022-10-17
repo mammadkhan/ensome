@@ -10,7 +10,7 @@ interface Props{
 
 const BusinessCard: React.FC<Props> = (props) => {
   return (
-    <div className={style.businessCard}>
+    <div id="businessCard" className={style.businessCard} >
         <img className={style.image} src={props.image} alt="Avatar of author" />
         <p className={style.text}>{props.text}</p>
         <h3 className={style.author}>{props.author}</h3>
